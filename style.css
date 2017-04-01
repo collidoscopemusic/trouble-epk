@@ -120,6 +120,14 @@ body {
  display: flex;
  flex-direction: row;
 }
+.mediaDiv {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.mediaLink {
+  color: #367F87;
+  font-size: 25px;
+}
 .double-div-2 {
  display: -webkit-flex;
  -webkit-flex-direction: row;
@@ -584,6 +592,9 @@ flex-direction: row;
   .double-div {
     height: 930px;
   }
+  .mediaLink {
+    font-size: 20px;
+  }
 }
 @media (max-width: 770px) {
   .double-div-3 {
@@ -702,6 +713,9 @@ flex-direction: row;
   .double-div {
     height: 850px;
   }
+  .mediaLink {
+    font-size: 18px;
+  }
 }
 @media (max-width: 450px) {
   .song1 {
@@ -775,6 +789,9 @@ flex-direction: row;
   .bio-header {
     margin-top: 0;
   }
+  .mediaLink {
+    font-size: 15px;
+  }
 }
 @media (max-width: 380px) {
   .half-row-3 {
@@ -807,6 +824,9 @@ flex-direction: row;
   }
   .logoText {
     font-size: 1.4em;
+  }
+  .mediaLink {
+    font-size: 15px;
   }
 }
 @media (max-width: 340px) {
@@ -843,5 +863,8 @@ flex-direction: row;
   }
   .double-div {
     height: 740px;
+  }
+  .mediaLink {
+    font-size: 13px;
   }
 }
