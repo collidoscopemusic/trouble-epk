@@ -124,12 +124,16 @@ body {
   text-align: center;
   margin-bottom: 30px;
 }
+.innerMedia {
+  width: 100%;
+  margin-bottom: 20px;
+}
 .mediaLink {
   color: #367F87;
   font-size: 25px;
 }
 .double {
-  
+
 }
 .double-div-2 {
  display: -webkit-flex;
@@ -209,7 +213,7 @@ flex-direction: row;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
-  font-size: 35px;
+  font-size: 25px;
 }
 .half-header {
   margin: 0;
@@ -230,7 +234,7 @@ flex-direction: row;
   margin-top: 15px;
   margin-bottom: 0;
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
 }
 .song1 {
   height: 250px;
@@ -437,10 +441,16 @@ flex-direction: row;
     font-size: 17px;
   }
   .double-div {
-    height: 600px;
+    height: 680px;
   }
 }
 @media (max-width: 1250px) {
+  .half-h4 {
+    font-size: 35px;
+  }
+  .half-h2 {
+    font-size: 35px;
+  }
   .social-div-1 {
     position: relative;
   }
@@ -449,6 +459,7 @@ flex-direction: row;
     align-items: center;
     display: flex;
     flex-direction: column;
+    height: 970px;
   }
   .double-div-2 {
     direction: column;
@@ -520,6 +531,7 @@ flex-direction: row;
   .half-row-4 {
     margin-top: 40px;
     width: 100%;
+    font-size: 35px;
   }
   .list {
     font-size: 23px;
@@ -597,6 +609,11 @@ flex-direction: row;
   }
   .mediaLink {
     font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .double-div {
+    height: 1030px;
   }
 }
 @media (max-width: 770px) {
@@ -719,6 +736,15 @@ flex-direction: row;
   .mediaLink {
     font-size: 18px;
   }
+  .half-h1 {
+    font-size: 25px;
+  }
+  .half-h4 {
+    font-size: 25px;
+  }
+  .half-h3 {
+    font-size: 25px;
+  }
 }
 @media (max-width: 450px) {
   .song1 {
@@ -738,10 +764,10 @@ flex-direction: row;
     height: 45px;
   }
   .double-div-4 {
-    height: 440px;
+    height: 500px;
   }
   .double-div-3 {
-    height: 350px;
+    height: 450px;
   }
   .half-row-4 {
     margin-top: 0;
