@@ -447,7 +447,7 @@ flex-direction: row;
     font-size: 17px;
   }
   .double-div {
-    height: 680px;
+    height: 880px;
   }
 }
 @media (max-width: 1250px) {
@@ -465,7 +465,7 @@ flex-direction: row;
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 970px;
+    height: 1180px;
   }
   .double-div-2 {
     direction: column;
@@ -618,7 +618,7 @@ flex-direction: row;
 }
 @media (max-width: 800px) {
   .double-div {
-    height: 1030px;
+    height: 1230px;
   }
 }
 @media (max-width: 770px) {
