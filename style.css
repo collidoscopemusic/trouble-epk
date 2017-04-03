@@ -219,7 +219,13 @@ flex-direction: row;
   margin: 0;
   display: -webkit-flex;
   -webkit-flex-direction: column;
-  margin-top: 42px;
+  margin-top: 60px;
+}
+.half-header-3 {
+  margin: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  margin-top: 30px;
 }
 .half-header-2 {
   margin: 0;
@@ -568,18 +574,15 @@ flex-direction: row;
     margin-top: 0;
   }
   .double-div {
-    height: 930px;
+    height: 1080px;
   }
   .list-2 {
     font-size: 27px;
   }
 }
 @media (max-width: 1030px) {
-  .double-div {
-    height: 850px;
-  }
   .double-div-4 {
-    height: 560px;
+    height: 600px;
     margin-top: 20px;
   }
   .double-div-3 {
@@ -604,11 +607,13 @@ flex-direction: row;
   .double-div-4 {
     height: 620px;
   }
-  .double-div {
-    height: 930px;
-  }
   .mediaLink {
     font-size: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .double-div {
+    height: 1180px;
   }
 }
 @media (max-width: 800px) {
@@ -627,13 +632,13 @@ flex-direction: row;
     font-size: 35px;
   }
   .double-div-4 {
-    height: 600px;
+    height: 650px;
   }
   .logoText {
     font-size: 2em;
   }
   .double-div {
-    height: 1050px;
+    height: 1250px;
   }
 }
 @media (max-width: 750px) {
@@ -679,9 +684,8 @@ flex-direction: row;
     margin-bottom: 0;
   }
   .double-div-3 {
-    height: 400px;
-    margin-bottom: 0;
-    margin-top: 0;
+    height: 500px;
+    margin: 0;
   }
   .bio {
     width: 90%;
@@ -689,7 +693,7 @@ flex-direction: row;
     margin-right: auto;
   }
   .double-div {
-    height: 850px;
+    height: 950px;
   }
 }
 @media (max-width: 650px) {
@@ -726,13 +730,11 @@ flex-direction: row;
     height: 450px;
   }
   .double-div {
-    height: 720px;
+    height: 920px;
   }
 }
 @media (max-width: 515px) {
-  .double-div {
-    height: 850px;
-  }
+
   .mediaLink {
     font-size: 18px;
   }
@@ -782,7 +784,7 @@ flex-direction: row;
     font-size: 1.5em;
   }
   .double-div {
-    height: 780px;
+    height: 950px;
   }
 }
 @media (max-width: 420px) {
@@ -830,7 +832,7 @@ flex-direction: row;
     height: 210px;
   }
   .double-div {
-    height: 740px;
+    height: 870px;
   }
   .half-row-2 {
     height: 200px;
@@ -863,7 +865,7 @@ flex-direction: row;
     height: 330px;
   }
   .double-div {
-    height: 680px;
+    height: 900px;
   }
   .list-2 {
     font-size: 14px;
@@ -889,9 +891,6 @@ flex-direction: row;
   .icon-div {
     height: 40px;
     width: 40px;
-  }
-  .double-div {
-    height: 740px;
   }
   .mediaLink {
     font-size: 13px;
